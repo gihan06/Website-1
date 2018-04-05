@@ -1,6 +1,6 @@
-create database 21402683;
+create database xyz;
 
-use database [21402683];
+use database [xyz];
 
 CREATE TABLE Company
 (
