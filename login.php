@@ -29,9 +29,9 @@
 
 <?php
    $dbhost = 'localhost';
-   $dbuser = '21402683';
-   $dbpass = '21402683';
-   $dbname ='21402683'; 
+   $dbuser = 'xyz';
+   $dbpass = 'xyz';
+   $dbname ='xyz'; 
 
 if(isset($_POST["submit"])){
 
