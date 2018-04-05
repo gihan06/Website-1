@@ -27,8 +27,8 @@
 <P> All our super cars & details. </p>
 <?php
    $dbhost = 'localhost';
-   $dbuser = '21402683';
-   $dbpass = '21402683';
+   $dbuser = 'xyz';
+   $dbpass = 'xyz';
    
    
    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
