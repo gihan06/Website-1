@@ -29,8 +29,8 @@
 
 <?php
    $dbhost = 'localhost';
-   $dbuser = '21402683';
-   $dbpass = '21402683';
+   $dbuser = 'xyz';
+   $dbpass = 'xyz';
    
    
    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
@@ -40,7 +40,7 @@
    }
    
    $sql = 'SELECT COMPANY_ID, COMPANY_NAME, COMPANY_ADDRESS, COMPANY_CONTACTINFORMATION, COMPANY_EMAIL FROM company';
-   mysql_select_db('21402683');
+   mysql_select_db('xyz');
    $retval = mysql_query( $sql, $conn );
    
    if(! $retval ) {
