@@ -30,9 +30,9 @@
 
 <?php 
    $dbhost = 'localhost';
-   $dbuser = '21402683';
-   $dbpass = '21402683';
-   $dbname ='21402683';
+   $dbuser = 'xyz';
+   $dbpass = 'xyz';
+   $dbname ='xyz';
 
 if(isset($_POST["submit"])){
 
@@ -40,7 +40,7 @@ if(!empty($_POST['Username']) && !empty($_POST['PASSWORD'])) {
 	$user=$_POST['Username'];
 	$pass=$_POST['PASSWORD'];
 
-	$con=mysql_connect('localhost','21402683','21402683') or die(mysql_error());
+	$con=mysql_connect('localhost','xyz','xyz') or die(mysql_error());
 	mysql_select_db('21402683') or die("cannot select DB");
 
 	$query=mysql_query("SELECT * FROM login WHERE Username='".$user."' AND PASSWORD='".$pass."'" );
